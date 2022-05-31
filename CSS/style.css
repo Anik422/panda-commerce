@@ -1,8 +1,9 @@
-.orange-bg{
+.orange-bg, #contact{
     background-color: #FEEAE9;
+    border-radius: 10px;
 }
 .container{
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 .carousel-item {
     padding: 20px 150px;
@@ -23,4 +24,56 @@
 .carousel-short-description{
     text-align: justify;
     padding: 20px 0px;
+}
+.categories h1{
+    color: #fff;
+}
+.categories img {
+    width: 35%;
+}
+.cat1{
+    background-image: linear-gradient(to bottom, rgb(248, 207, 130) 0%, orange 100%);
+}
+.cat2{
+    background-image: linear-gradient(to bottom, #f581ae 0%, #ff0464 100%);
+}
+.cat3{
+    background-image: linear-gradient(to bottom, rgb(137, 137, 241) 0%, blue 100%);
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.container h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 10px;
+}
+.card-body {
+    padding: 0rem 1rem;
+}
+.card-footer{
+    border: none;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.height{
+    padding: 1.8rem 1rem;
+}
+#contact{
+    height: 300px;
+    border-radius: 10px;
+}
+#contact h6{
+    color: dimgray;
+}
+footer{
+    color: dimgray;
+    text-align: center;
 }
